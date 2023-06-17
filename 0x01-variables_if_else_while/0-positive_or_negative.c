@@ -4,8 +4,8 @@
 /**
  * main - Determine if a random number is positive, negative or zero.
  *
- * Return: (0) on success
- */ 
+ * Return: 0 on success
+ */
 int main(void)
 {
 	int n;
@@ -21,9 +21,9 @@ int main(void)
 	{
 		printf("%d is %s\n", n, "positive");
 	}
-	else 
+	else
 	{
 		printf("%d is %s\n", n, "zero");
 	}
-		return (0);
+	return (0);
 }
