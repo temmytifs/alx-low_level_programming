@@ -6,16 +6,15 @@
  *
  * Return: Always 0.
  */
-
 int main(void)
 {
-    int y;
+    int n;
 
-    y = get_bit(1024, 10);
-    printf("%d\n",y);
-    y = get_bit(98, 1);
-    printf("%d\n", y);
-    y = get_bit(1024, 0);
-    printf("%d\n", y);
+    n = get_bit(1024, 10);
+    printf("%d\n", n);
+    n = get_bit(98, 1);
+    printf("%d\n", n);
+    n = get_bit(1024, 0);
+    printf("%d\n", n);
     return (0);
 }
