@@ -11,7 +11,7 @@ int main(void)
 {
 	unsigned long int y;
 
-	`y = 1024;
+	y = 1024;
 	clear_bit(&y, 10);
 	printf("%lu\n", y);
 	y = 0;

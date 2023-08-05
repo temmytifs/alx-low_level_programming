@@ -2,7 +2,7 @@
 
 /**
  * clear_bit - sets the value of a bit to 0
- * @n: pointer to the number to be change
+ * @y: pointer to the number to be change
  * @index: index  bit to clear
  *
  * Return: 1 for success, -1 for failure
